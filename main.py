@@ -19,7 +19,7 @@ class ebay():
             product_name = all.find("h3", class_="s-item__title").text
             print(price)
             print(product_name)
-        print("************************************************")
+        print("**")
         print()
 
     def run(self):
